@@ -3,14 +3,13 @@ header {
 }
 
 h1 {
+    margin: 0;
     font-size: 48px;
     color: rgb(71, 62, 62);
-    margin: 12px 0;
 }
 
 #description {
-    font-size: 18px;
-    font-weight: bold;
+    margin: 12px;
 }
 
 header p {
@@ -40,6 +39,7 @@ ol {
 
 li {
     padding: 16px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     margin: 32px;
     background-color: rgb(223, 136, 124);
     border-radius: 6px;
